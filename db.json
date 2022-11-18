@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "firstName": "11",
+      "lastName": "22",
+      "email": "33",
+      "mobile": "44",
+      "salary": "55"
+    },
+    {
+      "id": 4,
+      "firstName": "2",
+      "lastName": "3",
+      "email": "4",
+      "mobile": "5",
+      "salary": "6"
+    },
+    {
+      "id": 5,
+      "firstName": "33",
+      "lastName": "44",
+      "email": "55",
+      "mobile": "66",
+      "salary": "77"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
