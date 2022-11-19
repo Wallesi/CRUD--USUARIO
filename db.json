@@ -23,9 +23,32 @@
       "email": "55",
       "mobile": "66",
       "salary": "77"
+    },
+    {
+      "id": 6,
+      "firstName": "Mauro Waldemar",
+      "lastName": "Galizzi",
+      "email": "waldemargalizzi98@gmail.com",
+      "mobile": "3425880201",
+      "salary": "$ 1500002"
     }
   ],
-  "comments": [],
+  "signupUsers": [
+    {
+      "fullname": "Mauro Waldemar Galizzi",
+      "email": "waldemargalizzi98@gmail.com",
+      "password": "123",
+      "mobile": 3425880201,
+      "id": 1
+    },
+    {
+      "fullname": "123",
+      "email": "valentinsigaudo@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 2
+    }
+  ],
   "profile": {
     "name": "typicode"
   }

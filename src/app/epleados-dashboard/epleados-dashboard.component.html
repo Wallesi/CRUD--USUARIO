@@ -3,6 +3,7 @@
         <h1 style="color:aliceblue;">Angular Crud</h1>
         <div class="d-flex">
             <button (click)="clickAddEmploye()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success">Add Employe</button>
+            <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
         </div>
     </div>
 </nav>
@@ -26,7 +27,7 @@
             <td>{{row.lastName}}</td>
             <td>{{row.email}}</td>
             <td>{{row.mobile}}</td>
-            <td>{{row.salary}}</td>
+            <td>${{row.salary}}</td>
             <td>
                 <button (click)="onEdit(row)" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info">Edit</button>
                 <button (click)="deleteEmployee(row)" class="btn btn-danger mx-3">Delete</button>
